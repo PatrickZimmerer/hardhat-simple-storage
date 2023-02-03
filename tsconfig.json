@@ -10,6 +10,6 @@
     },
 
     "exclude": ["dist", "node_modules"],
-    "include": ["./src", "./scripts"], //only the "scripts" part.
+    "include": ["./src", "./scripts"],
     "files": ["./hardhat.config.ts"]
 }
