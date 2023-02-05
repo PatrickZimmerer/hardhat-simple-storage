@@ -1,8 +1,9 @@
-import { HardhatUserConfig } from "hardhat/config";
+import { HardhatUserConfig } from "hardhat/config.js";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-etherscan";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
+import "@typechain/hardhat";
 import "./tasks/block-number.js";
 import * as dotenv from "dotenv";
 dotenv.config();
